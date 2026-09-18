@@ -15,13 +15,17 @@ int main()
                 {
                     printf("*  ");
                 }
-                else{printf("   ");}   //space hai
-            } 
+                else
+                {
+                    printf("   ");
+                } // space hai
+            }
 
             printf("\n");
         }
     }
-    else{
+    else
+    {
         printf("only use odd number not a even number");
     }
     return 0;

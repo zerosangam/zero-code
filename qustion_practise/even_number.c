@@ -2,16 +2,14 @@
 int main()
 {
     int n;
-    printf("Enter your number = ");
+    printf("Enter your number : ");
     scanf("%d", &n);
-    int p = 1;
+
     for (int i = 1; i <= n; i++)
     {
-        p = p * i;
-        printf("%d",i);
+        if(i%2==0)
+        printf("%d\n", i);
     }
-
-    printf("= %d", p);
 
     return 0;
 }
