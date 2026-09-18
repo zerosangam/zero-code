@@ -13,9 +13,9 @@ int main()
                 int a = n / 2 + 1;
                 if (j == a || i == a)
                 {
-                    printf("  *  ");
+                    printf("* ");
                 }
-                else{printf("   ");}
+                else{printf("  ");}
             }
             printf("\n");
         }
