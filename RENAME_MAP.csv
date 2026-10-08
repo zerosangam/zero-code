@@ -1,0 +1,177 @@
+﻿teacher_or_source,old_path,found_in,new_path,what_it_does,note_bug_or_remark
+PW_Skill,pw skill/pluse.c,zip working folder,C_Programming/PW_Skill/01_Basics_Input_Output/01_subtract_two_numbers.c,Subtracts 2nd number from 1st (double),Old name said 'pluse' but code does subtraction
+PW_Skill,pw skill/multiplication.c,zip working folder,C_Programming/PW_Skill/01_Basics_Input_Output/02_add_subtract_multiply_two_numbers.c,"Prints product, difference and sum of two doubles",
+PW_Skill,pw skill/arye_perameter.c,zip working folder,C_Programming/PW_Skill/01_Basics_Input_Output/03_rectangle_area.c,Area = length x breadth,Old name said perimeter but code computes area
+PW_Skill,pw skill/circule_frame.c,zip working folder,C_Programming/PW_Skill/01_Basics_Input_Output/04_circle_circumference.c,Circumference = 2*pi*r (float),Prompt says 'ratio' - should say radius
+PW_Skill,pw skill/simpleinterest.c,zip working folder,C_Programming/PW_Skill/01_Basics_Input_Output/05_simple_interest.c,Simple interest = P*R*T/100,
+PW_Skill,pw skill/compount_entrest.c,zip working folder,C_Programming/PW_Skill/01_Basics_Input_Output/06_compound_amount_calculation.c,P*(1+r/100)^t using pow(),"Prints final amount, not interest (CI = amount - P). With gcc compile using -lm"
+PW_Skill,pw skill/positive_negative.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/01_positive_or_negative.c,Positive / negative check,Zero is reported as negative
+PW_Skill,pw skill/even_ode.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/02_even_or_odd.c,Even or odd,
+PW_Skill,pw skill/abslute_velue.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/03_absolute_value.c,Absolute value of a number,
+PW_Skill,pw skill/two_big_nuber.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/04_largest_of_two_numbers.c,Larger of two numbers,
+PW_Skill,pw skill/larg_number.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/05_largest_of_three_numbers.c,Largest of three numbers,Bug: prints nothing if the two biggest values are equal
+PW_Skill,pw skill/positive_integiar.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/06_check_divisible_by_5.c,Divisible by 5 or not,
+PW_Skill,pw skill/multipal_condition.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/07_check_three_digit_number.c,Checks if number is 3-digit (100-999),
+PW_Skill,pw skill/sp_cp.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/08_profit_or_loss_check.c,Compares SP and CP: profit / loss / no change,
+PW_Skill,pw skill/brack_statmant.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/09_profit_loss_percentage_incomplete.c,Takes cost price and selling price; profit/loss formulas are only in comments,Incomplete: reads the two prices but prints nothing
+PW_Skill,pw skill/odd_evean.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/10_leap_year_check.c,Leap year check using %4,Old name said odd/even but code is leap year; same rule issue
+PW_Skill,pw skill/devagibal_non_devigibal.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/11_check_divisible_by_3_and_5.c,Intended: divisible by 3 and 5,Bug: l/3 && l/5 is integer division. Use l%3==0 && l%5==0
+PW_Skill,pw skill/check_devision.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/12_check_divisible_by_3_and_5_v2.c,Same as above (duplicate),Same bug as above
+PW_Skill,pw skill/marks.c,zip working folder,C_Programming/PW_Skill/02_If_Else_Conditions/13_five_subject_total_percentage_grade.c,"5 subjects: total, percentage, grade",
+PW_Skill,pw skill/Loop.c,zip working folder,C_Programming/PW_Skill/03_Loops/01_print_1_to_10.c,Print 1 to 10,
+PW_Skill,pw skill/number.c,backup folder C' only,C_Programming/PW_Skill/03_Loops/02_print_1_to_100_no_spaces.c,Print 1 to 100 (no spaces between numbers),Bug: function is named mainl() so the program will not run; rename it to main()
+PW_Skill,pw skill/revers_nuber_n.c,zip working folder,C_Programming/PW_Skill/03_Loops/03_print_n_to_1_reverse.c,Print N down to 1,
+PW_Skill,pw skill/n_time_sun.c,zip working folder,C_Programming/PW_Skill/03_Loops/04_sum_1_to_n_formula.c,Sum of 1 to N using n(n+1)/2,
+PW_Skill,pw skill/table_print.c,zip working folder,C_Programming/PW_Skill/03_Loops/05_multiplication_table.c,Table of N (10 terms),
+PW_Skill,pw skill/table_printing.c,zip working folder,C_Programming/PW_Skill/03_Loops/06_multiplication_table_v2.c,Table of N (10 terms),
+PW_Skill,pw skill/factoriyal.c,zip working folder,C_Programming/PW_Skill/03_Loops/07_factorial.c,Factorial of N,
+PW_Skill,pw skill/fibonacci.c,zip working folder,C_Programming/PW_Skill/03_Loops/08_fibonacci_series_with_sum.c,First N Fibonacci numbers and their sum,
+PW_Skill,pw skill/temp_Code_RunnerFile.c,zip working folder,C_Programming/PW_Skill/03_Loops/09_alternating_sum_1_to_n.c,1 - 2 + 3 - 4 ... up to N using loop,
+PW_Skill,pw skill/sum_of_degit.c,zip working folder,C_Programming/PW_Skill/03_Loops/10_alternating_sum_1_to_n_formula.c,Alternating sum using formula inside loop,"Works, but the loop is unnecessary; stray commented lines"
+PW_Skill,pw skill/desit_sum.c,zip working folder,C_Programming/PW_Skill/04_Digits_and_Prime_Numbers/01_sum_of_digits.c,Sum of digits (comments hold even/odd-digit variants),
+PW_Skill,pw skill/prime_number.c,zip working folder,C_Programming/PW_Skill/04_Digits_and_Prime_Numbers/02_prime_number_check.c,Prime check,
+PW_Skill,pw skill/patern_printi.c,zip working folder,C_Programming/PW_Skill/04_Digits_and_Prime_Numbers/03_prime_number_check_v2.c,Prime check,Old name said pattern but it is a prime check
+PW_Skill,pw skill/patern_printing.c,zip working folder,C_Programming/PW_Skill/05_Pattern_Printing/01_star_rectangle_pattern.c,Rows x columns star rectangle,
+PW_Skill,pw skill/number_squar_print.c,zip working folder,C_Programming/PW_Skill/05_Pattern_Printing/02_number_rectangle_pattern.c,"Rows x columns, each row 1..cols",
+PW_Skill,pw skill/patern_primting_number.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/03_odd_numbers_triangle_pattern.c,Triangle filled with consecutive odd numbers,
+PW_Skill,pw skill/pater_printing3.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/04_binary_1_0_triangle_pattern.c,Triangle of alternating 1 and 0,
+PW_Skill,pw skill/tringal_printing.c,zip working folder,C_Programming/PW_Skill/05_Pattern_Printing/05_number_reverse_triangle.c,Reverse number triangle (comments hold star/straight variants),
+PW_Skill,pw skill/pater_printing4.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/06_number_reverse_triangle_v2.c,Reverse number triangle with leading spaces,Same shape as number_reverse_triangle
+PW_Skill,pw skill/patern_printing4.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/07_star_right_aligned_triangle.c,Right-aligned star triangle,
+PW_Skill,pw skill/patern_printing5.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/08_star_parallelogram_pattern.c,Slanted star block (parallelogram),
+PW_Skill,pw skill/patern_printing6.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/09_alphabet_right_aligned_triangle.c,"Right-aligned alphabet triangle A, AB, ABC...",
+PW_Skill,pw skill/abc_patern_print.c,zip working folder,C_Programming/PW_Skill/05_Pattern_Printing/10_letter_number_pattern_increasing.c,Rows grow: A1 / A2 B2 ... letter + row number,
+PW_Skill,abc_patern_print.c,zip working folder,C_Programming/PW_Skill/05_Pattern_Printing/11_letter_number_pattern_decreasing.c,Rows shrink: letter + row number,
+PW_Skill,pw skill/pater_printing_squiir.c,zip working folder,C_Programming/PW_Skill/05_Pattern_Printing/12_hollow_square_pattern.c,Hollow star square (odd N only),
+PW_Skill,pw skill/patern_squar.c,zip working folder,C_Programming/PW_Skill/05_Pattern_Printing/13_plus_sign_pattern.c,Plus (+) pattern (odd N only),
+PW_Skill,pw skill/pater_printing_crose.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/14_x_cross_pattern_stars.c,X (cross) pattern of stars,
+PW_Skill,pw skill/patern_printing7.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/15_caret_pyramid_pattern.c,Pyramid made of ^ symbols,
+PW_Skill,pw skill/patern_printing8.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/16_number_pyramid_odd_count.c,Pyramid: 1 / 123 / 12345 ...,
+PW_Skill,pw skill/patern_printing9.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/17_alphabet_pyramid_pattern.c,Pyramid: A / ABC / ABCDE ...,Unused variable num
+PW_Skill,pw skill/patern_printing10.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/18_number_pyramid_palindrome_pattern.c,Pyramid: 1 / 121 / 12321 ...,
+PW_Skill,pw skill/patern_printting11.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/19_alphabet_pyramid_mirror_pattern.c,Pyramid: A / ABA / ABCBA ...,Unused variable num
+PW_Skill,pw skill/patern_prit12.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/20_star_diamond_pattern.c,Diamond of stars (odd N),
+PW_Skill,pw skill/patern_printing13.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/21_star_split_gap_pattern.c,Stars on both sides with a growing gap,
+PW_Skill,pw skill/patern_printing15.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/22_number_split_gap_pattern_continuous.c,Numbers continue across a growing gap,
+PW_Skill,pw skill/patern_print16.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/23_number_split_gap_pattern_continuous_with_header.c,Same with a header line of numbers,
+PW_Skill,pw skill/patern.print14.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/24_alphabet_split_gap_pattern_with_header.c,Alphabet version with header line,
+PW_Skill,pw skill/patern_printing17.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/25_number_split_gap_pattern_mirror_with_header.c,Numbers up then down with growing gap and header,Same output as v2
+PW_Skill,pw skill/patern_printing18.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/05_Pattern_Printing/26_number_split_gap_pattern_mirror_with_header_v2.c,"Same as above, adds an early break",Same output as the previous file
+PW_Skill,pw skill/abc_patern_print.c,backup folder C' only,C_Programming/PW_Skill/05_Pattern_Printing/27_letter_number_pattern_increasing_old_version.c,Older copy of the letter-number pattern,Only whitespace differs
+PW_Skill,pw skill/even_odd.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/06_Functions/01_menu_even_odd_prime_whole_numbers_using_functions.c,"Menu: 1 even, 2 odd, 3 prime, 4 whole numbers up to N (4 functions + switch)",prime() has no break before default (harmless); old name 'even_odd' hid the menu idea
+PW_Skill,pw skill/recursion/after_calling.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/01_print_1_to_n_recursive.c,Print 1 to N (print after recursive call),
+PW_Skill,pw skill/recursion/print_1_n.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/02_print_1_to_n_recursive_v2.c,"Print 1 to N using helper incriging(x, n)",
+PW_Skill,pw skill/recursion/orint _n_to_q.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/03_print_n_to_1_recursive.c,Print N down to 1 recursively,Old name had a space and typo ('orint _n_to_q')
+PW_Skill,pw skill/recursion/sun.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/04_sum_1_to_n_recursive.c,"Sum 1 to N, prints the total at n==0",
+PW_Skill,pw skill/function_factoral.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/05_factorial_recursive.c,Recursive factorial (base case n==0 or 1),
+PW_Skill,pw skill/recursion/factorial.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/06_factorial_recursive_long_long.c,Recursive factorial returning long long,Base case only n==1 (n=0 never stops); result stored in int so large values overflow
+PW_Skill,pw skill/recursion/power.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/07_power_recursive.c,Power b^p using recursion,
+PW_Skill,pw skill/recursion/fabonacci.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/07_Recursion/08_power_recursive_v2.c,Power b^p using recursion (copy of power.c),Old name said fibonacci but the code is power
+PW_Skill,pw skill/array/basic.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/01_array_read_and_print_4_elements.c,Read and print 4 array elements,
+PW_Skill,pw skill/array/array_revers_printing.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/02_array_read_5_print_reverse.c,Read 5 elements and print in reverse,
+PW_Skill,pw skill/array/garvage_valur.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/03_array_garbage_value_demo.c,Prints arr[4] of an uninitialised array of size 4,Intentional demo: out-of-bounds and uninitialised read
+PW_Skill,pw skill/array/problem.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/04_array_print_index_of_marks_below_50.c,Prints index of marks below 50 from a 10-element array,
+PW_Skill,pw skill/array/sum.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/05_array_sum_of_elements.c,Sum of N array elements,
+PW_Skill,pw skill/array/product.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/06_array_product_of_elements.c,Product of N array elements,
+PW_Skill,pw skill/array/second_karges.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/07_array_largest_element.c,Largest element of an array,Old name said 'second largest' but code finds the largest; comment shows how to get minimum
+PW_Skill,pw skill/array/serch_the_mex_mume.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/08_array_largest_element_v2.c,Largest element of an array (duplicate),Identical to array_largest_element
+PW_Skill,pw skill/array/two_pair.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/09_array_pairs_with_given_sum.c,Find pairs whose sum equals a given number,Bug: count is not initialised (set count = 0); array size 8 but 9 values given
+PW_Skill,pw skill/array/triplatae_pair.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/08_Arrays/10_array_triplets_with_given_sum.c,Find triplets whose sum equals a given number,Bug: count is not initialised (set count = 0)
+PW_Skill,pw skill/pointer.c,git history only (deleted/renamed earlier),C_Programming/PW_Skill/09_Pointers/01_swap_two_numbers_using_pointers_buggy.c,Attempt: swap using pointers,"Bug: *x = temp should be *y = temp, so a and b do not swap"
+Code_With_Harry,code with harry/game.c,zip working folder,C_Programming/Code_With_Harry/01_Basics_Input_Output/01_empty_main_template.c,Empty main() template,No logic yet; uses void main
+Code_With_Harry,code with harry/leep_year.c,zip working folder,C_Programming/Code_With_Harry/02_If_Else_Conditions/01_leap_year_check.c,Leap year check using %4,Uses 'y = a%4==0' inside if; same rule issue
+Code_With_Harry,code with harry/problam_1.c,zip working folder,C_Programming/Code_With_Harry/02_If_Else_Conditions/02_assignment_vs_equality_demo.c,if (a = 11) demo of = vs ==,Intentional bug demo: assignment inside if
+Code_With_Harry,code with harry/marks_grade.c,zip working folder,C_Programming/Code_With_Harry/02_If_Else_Conditions/03_marks_to_grade.c,Marks to grade A/B/C/D/F,
+Code_With_Harry,code with harry/problam_2.c,zip working folder,C_Programming/Code_With_Harry/02_If_Else_Conditions/04_pass_fail_three_subjects.c,Pass/fail using 3 subject marks and average,"Inconsistent: 1st subject uses <=33, others use <33"
+Code_With_Harry,code with harry/incom_tax.c,zip working folder,C_Programming/Code_With_Harry/02_If_Else_Conditions/05_income_tax_calculator.c,Slab-wise income tax,"Slab 5-10 lakh adds 0.2*200000 (should be 0.2*300000 = full tax of previous slab); income above 10,00,000 gets tax 0 (no branch)"
+Code_With_Harry,code with harry/sweetch.c,zip working folder,C_Programming/Code_With_Harry/03_Switch_Case/01_switch_print_number_1_to_5.c,Switch on 1-5 prints the number,
+Code_With_Harry,code with harry/inver_loop.c,zip working folder,C_Programming/Code_With_Harry/04_Loops/01_print_1_to_n.c,Print 1 to N,Comment labels are swapped ('decraging')
+Code_With_Harry,code with harry/basic_practise.c,zip working folder,C_Programming/Code_With_Harry/04_Loops/02_print_even_numbers_up_to_n.c,Even numbers up to N (comments hold other variants),
+Code_With_Harry,code with harry/loop.c,zip working folder,C_Programming/Code_With_Harry/04_Loops/03_print_name_title_n_times.c,Print name + title N times,Bug: i-- inside while(i<=a) gives infinite loop; use i++
+Code_With_Harry,code with harry/hello_world_function.c,git history only (deleted/renamed earlier),C_Programming/Code_With_Harry/05_Functions/01_function_with_int_parameter_prints_hello.c,"Function takes an int, prints hello zero",Parameter n is never used
+Code_With_Harry,code with harry/squrt_functio.c,git history only (deleted/renamed earlier),C_Programming/Code_With_Harry/05_Functions/02_square_root_using_sqrt.c,Square root with sqrt(),Bug: #include <math.h> is missing (and compile with -lm); %2lf probably meant %.2lf
+Code_With_Harry,code with harry/factorial_call_function.c,git history only (deleted/renamed earlier),C_Programming/Code_With_Harry/06_Recursion/01_factorial_recursive.c,Recursive factorial (same as v2),Duplicate of v2
+Saradha_Mame,saradha mame/hello.c,zip working folder,C_Programming/Saradha_Mame/01_Basics_Input_Output/01_hello_world.c,Prints a hello world message,Typo in output text ('heloo')
+Question_Practice,qustion_practise/hello_world.c,zip working folder,C_Programming/Question_Practice/01_Basics_Input_Output/01_hello_world.c,Prints Hello world,
+Question_Practice,qustion_practise/addition.c,zip working folder,C_Programming/Question_Practice/01_Basics_Input_Output/02_add_two_numbers.c,Adds two integers,
+Question_Practice,qustion_practise/average.c,zip working folder,C_Programming/Question_Practice/01_Basics_Input_Output/03_average_of_three_numbers.c,Average of three integers,Bug: integer division happens before float; 3rd scanf has no prompt
+Question_Practice,qustion_practise/coube.c,zip working folder,C_Programming/Question_Practice/01_Basics_Input_Output/04_cube_of_number.c,Cube of a number,
+Question_Practice,qustion_practise/rectangle.c,zip working folder,C_Programming/Question_Practice/01_Basics_Input_Output/05_circle_circumference_int_version.c,Circumference stored in int,Bug: result truncated because of int; old name 'rectangle' was misleading
+Question_Practice,qustion_practise/faranhite_celcise.c,zip working folder,C_Programming/Question_Practice/01_Basics_Input_Output/06_celsius_to_fahrenheit.c,Celsius to Fahrenheit,
+Question_Practice,qustion_practise/addition.c,backup folder C' only,C_Programming/Question_Practice/01_Basics_Input_Output/07_add_two_numbers_old_version.c,Older copy of add_two_numbers,Only formatting differs
+Question_Practice,qustion_practise/positiive_negative.c,zip working folder,C_Programming/Question_Practice/02_If_Else_Conditions/01_positive_negative_or_zero.c,Positive / negative / zero check,
+Question_Practice,qustion_practise/even_odd.c,zip working folder,C_Programming/Question_Practice/02_If_Else_Conditions/02_even_or_odd.c,Even or odd (second version),Typo 'id even' in output
+Question_Practice,qustion_practise/largest_of_two_numbers..c,zip working folder,C_Programming/Question_Practice/02_If_Else_Conditions/03_largest_of_two_numbers_with_equal_case.c,"Larger of two, handles equal case",Old name had a double dot before .c
+Question_Practice,qustion_practise/largest_of_three_numbers.c,zip working folder,C_Programming/Question_Practice/02_If_Else_Conditions/04_largest_of_three_numbers.c,Largest of three using >=,Handles ties correctly
+Question_Practice,qustion_practise/voting_eligibility_check .c,zip working folder,C_Programming/Question_Practice/02_If_Else_Conditions/05_voting_eligibility_check.c,Age >= 18 voting check,Old name had a space before .c
+Question_Practice,qustion_practise/voval_consonant.c,zip working folder,C_Programming/Question_Practice/02_If_Else_Conditions/06_vowel_or_consonant.c,Vowel or consonant for a character,Does not check that input is a letter
+Question_Practice,qustion_practise/leap_year..c,zip working folder,C_Programming/Question_Practice/02_If_Else_Conditions/07_leap_year_check.c,Leap year check using %4,Incomplete rule. Correct: (y%4==0 && y%100!=0) || y%400==0
+Question_Practice,qustion_practise/power1.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/02_If_Else_Conditions/08_largest_of_two_numbers_ternary.c,Larger of two numbers using ternary operator (?:),Old name 'power1' was misleading
+Question_Practice,qustion_practise/switch_case1.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/03_Switch_Case/01_switch_day_name_from_number.c,Switch on 1-7 prints day name,"Spelling mistakes in output (therday, fryday, suterday)"
+Question_Practice,qustion_practise/switch_oprater.c,zip working folder,C_Programming/Question_Practice/03_Switch_Case/02_calculator_using_switch.c,Calculator with + - * / using switch,No divide-by-zero check; %2lf probably meant %.2lf
+Question_Practice,qustion_practise/switch_simpal_calu.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/03_Switch_Case/03_calculator_using_switch_int_menu.c,"Menu calculator: 1 add, 2 sub, 3 mul, 4 remainder, 5 divide",Declarations sit right after case labels - older compilers need { } around each case; no divide-by-zero check
+Question_Practice,qustion_practise/numbers_print.c,zip working folder,C_Programming/Question_Practice/04_Loops/01_print_1_to_n.c,Print 1 to N,
+Question_Practice,qustion_practise/practise.c,backup folder C' only,C_Programming/Question_Practice/04_Loops/02_print_1_to_n_do_while.c,Print 1 to N using do-while,Prints 1 even if N is 0 because do-while runs once
+Question_Practice,qustion_practise/even_numbers_prin.c,zip working folder,C_Programming/Question_Practice/04_Loops/03_print_even_1_to_100.c,Even numbers 1-100,
+Question_Practice,qustion_practise/even.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/04_Loops/04_print_even_1_to_100_v2.c,Even numbers 1-100,Variable n is unused
+Question_Practice,qustion_practise/odd_number_print.c,zip working folder,C_Programming/Question_Practice/04_Loops/05_print_odd_1_to_100.c,Odd numbers 1-100,
+Question_Practice,qustion_practise/even_number.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/04_Loops/06_print_even_numbers_up_to_n.c,Even numbers up to N,
+Question_Practice,qustion_practise/one_ro_n_print_aum.c,zip working folder,C_Programming/Question_Practice/04_Loops/07_sum_1_to_n.c,Sum of 1 to N using loop,
+Question_Practice,qustion_practise/sum_of_ten_degit.c,zip working folder,C_Programming/Question_Practice/04_Loops/08_print_and_sum_1_to_n.c,Print 1 to N and show the sum,Old name said 'ten digit'
+Question_Practice,qustion_practise/print_odd_sum.c,zip working folder,C_Programming/Question_Practice/04_Loops/09_print_odd_numbers_and_sum.c,Print odd numbers up to N and their sum,
+Question_Practice,qustion_practise/odd_number.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/04_Loops/10_print_1_to_n_stop_at_50_with_sum.c,"Prints 1..N, stops at 50 with break, shows sum",Old name said odd_number and message says 'even' but it prints all numbers; sum starts at 1 (should be 0)
+Question_Practice,qustion_practise/multiplication_table.c,zip working folder,C_Programming/Question_Practice/04_Loops/11_multiplication_table.c,Table of N (10 terms),
+Question_Practice,qustion_practise/number_factorial.c,zip working folder,C_Programming/Question_Practice/04_Loops/12_factorial.c,Factorial of N,
+Question_Practice,qustion_practise/favonoci_serise.c,zip working folder,C_Programming/Question_Practice/04_Loops/13_fibonacci_series_with_sum.c,Fibonacci numbers and sum,Loop uses i<=n so it prints N+1 terms
+Question_Practice,qustion_practise/sum_of_digits.c,zip working folder,C_Programming/Question_Practice/05_Digits_and_Prime_Numbers/01_sum_of_digits.c,Sum of digits using while loop,
+Question_Practice,qustion_practise/Number_rever.c,zip working folder,C_Programming/Question_Practice/05_Digits_and_Prime_Numbers/02_print_digits_in_reverse.c,Prints digits of a number in reverse order,Works only for n > 0
+Question_Practice,qustion_practise/Palindrome_number.c,zip working folder,C_Programming/Question_Practice/05_Digits_and_Prime_Numbers/03_palindrome_number_check.c,Palindrome number check,Works only for n > 0
+Question_Practice,qustion_practise/prime_numbaer_ii.c,zip working folder,C_Programming/Question_Practice/05_Digits_and_Prime_Numbers/04_prime_number_check.c,Prime check,
+Question_Practice,qustion_practise/primr_number.c,zip working folder,C_Programming/Question_Practice/05_Digits_and_Prime_Numbers/05_prime_number_check_v2.c,Prime check,
+Question_Practice,qustion_practise/prime_number.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/05_Digits_and_Prime_Numbers/06_prime_number_check_v3.c,Prime check,
+Question_Practice,qustion_practise/squar_number_patern_print.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/01_star_square_pattern.c,N x N star square,
+Question_Practice,qustion_practise/strate_tringal.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/02_star_right_triangle.c,Right star triangle,
+Question_Practice,qustion_practise/strate_number_tringal.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/03_star_right_triangle_v2.c,Right star triangle,Variable k is unused
+Question_Practice,qustion_practise/right_trangal.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/04_number_right_triangle.c,"Right triangle: 1, 12, 123 ...",
+Question_Practice,qustion_practise/dobule_strate_number_print.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/05_number_repeated_row_triangle.c,"Triangle: 1, 22, 333 ...",
+Question_Practice,qustion_practise/revers_trangal.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/06_star_reverse_triangle.c,Reverse (inverted) star triangle,
+Question_Practice,qustion_practise/reverse_trangal.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/07_number_reverse_triangle.c,"Reverse triangle: 12345, 1234 ...",
+Question_Practice,qustion_practise/revers_number_print.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/08_number_reverse_triangle_v2.c,"Reverse triangle: 12345, 1234 ...",
+Question_Practice,qustion_practise/patern_printing_pluse.c,zip working folder,C_Programming/Question_Practice/06_Pattern_Printing/09_plus_sign_pattern.c,Plus (+) pattern (odd N only),
+Question_Practice,qustion_practise/patern_printing_pluse.c,backup folder C' only,C_Programming/Question_Practice/06_Pattern_Printing/10_plus_sign_pattern_old_version.c,Older copy of the plus pattern,Prints narrower * and spaces
+Question_Practice,qustion_practise/function_helo.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/07_Functions/01_function_void_hello_zero.c,void function hello() prints Hello Zero,
+Question_Practice,qustion_practise/function_call_back.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/07_Functions/02_function_show_prints_10.c,void function show() prints 10,
+Question_Practice,qustion_practise/funcrion_call2.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/07_Functions/03_function_returns_10.c,Function returns 10; stored and printed in main,Extra unused call zero();
+Question_Practice,qustion_practise/function_add.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/07_Functions/04_function_add_two_numbers.c,"add(a,b) returns the sum",
+Question_Practice,qustion_practise/fucntion_call_surt_3.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/07_Functions/05_function_square_of_number.c,square(n) returns n*n,"square() is called 3 times, one call is enough"
+Question_Practice,qustion_practise/power.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/07_Functions/06_function_power_using_loop.c,"power(base, exp) using a for loop",
+Question_Practice,qustion_practise/prime-number.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/07_Functions/07_function_prime_number_check.c,Prime check inside a function,Function returns i but the value is never used
+Question_Practice,qustion_practise/recursion5.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/01_print_1_to_n_recursive.c,Print 1 to N recursively (prints after the call),
+Question_Practice,qustion_practise/function1.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/02_print_1_to_n_recursive_v2.c,Print 1 to N recursively,Stray return value and unused result
+Question_Practice,qustion_practise/recursion7.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/03_print_n_to_1_recursive.c,Print N down to 1 recursively,
+Question_Practice,qustion_practise/revers_n_to_1.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/04_print_n_to_1_recursive_v2.c,Print N down to 1 recursively,
+Question_Practice,qustion_practise/recursion 6.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/05_print_hello_zero_n_times_recursive.c,Print 'hello zero' N times recursively,Old name had a space before the number
+Question_Practice,qustion_practise/re_sum_1_to_n.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/06_sum_1_to_n_recursive.c,Sum 1 to N with accumulator,
+Question_Practice,qustion_practise/recursion_sum.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/07_sum_1_to_n_recursive_v2.c,Sum 1 to N with accumulator,
+Question_Practice,qustion_practise/recursive_factoral.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/08_factorial_recursive.c,Recursive factorial (base case n==0),
+Question_Practice,qustion_practise/recursive_5.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/09_sum_of_digits_recursive.c,Sum of digits using recursion,
+Question_Practice,qustion_practise/recursion_sum_digit.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/10_sum_of_digits_recursive_buggy.c,Attempt: sum of digits using recursion,"Bug: number(n%10,sum+n)+number(n/10,sum) gives wrong result. Correct: (n%10) + sum(n/10)"
+Question_Practice,qustion_practise/fabonici.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/11_fibonacci_nth_term_recursive_buggy.c,Attempt: nth Fibonacci term recursively,Bug: base case only n==1; n==2 calls f(0) and recurses forever. Add base case for n==2 / n<=1
+Question_Practice,qustion_practise/recusion_squar.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/12_print_squares_recursive_buggy.c,Attempt: print squares N..1 recursively,"Bug: number(n-n) calls number(0), so only n*n prints. Use number(n-1)"
+Question_Practice,qustion_practise/recursive7.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/13_reverse_counting_recursive_buggy.c,Attempt: print N down to 1 recursively,Bug: prints sum+number(n-1) values instead of n; prints zeros
+Question_Practice,qustion_practise/recursive4.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/08_Recursion/14_even_or_odd_recursive_incomplete.c,Attempt: even/odd check using recursion,"Incomplete: missing semicolon and return, will not compile"
+Question_Practice,qustion_practise/pointer.c,git history only (deleted/renamed earlier),C_Programming/Question_Practice/09_Pointers/01_pointer_basic_read_and_change_value.c,Pointer to int: read value and change it through the pointer,
+Web (own HTML work),HTML  CSS/zero.html,zip working folder,Web_HTML_CSS_JS/01_html_basic_tags_text_formatting.html,"Basic HTML tags: heading, paragraph, link, image, bold/italic/underline, sub/sup, pre",
+Web (own HTML work),HTML  CSS/zero1.html,zip working folder,Web_HTML_CSS_JS/02_html_semantic_tags_lists_table_form.html,"Semantic tags, lists, table, form, iframe",
+Web (own HTML work),HTML  CSS/zero2.html,zip working folder,Web_HTML_CSS_JS/03_html_admission_form.html,Admission portal form page,
+Web (own HTML work),HTML  CSS/zero3.html,zip working folder,Web_HTML_CSS_JS/04_html_css_id_card_page.html,ID card page styled with CSS (flexbox card),Image link updated to profile_image.png after renaming the image
+Web (own HTML work),HTML  CSS/zero image (3).png,zip working folder,Web_HTML_CSS_JS/profile_image.png,Profile picture used by the ID card page,Renamed from 'zero image (3).png'
+Web (own HTML work),HTML  CSS/index.html,git history only (deleted/renamed earlier),Web_HTML_CSS_JS/05_css_link_demo/index.html,HTML page linking style.css (h1 styling),Heading text has a typo ('he;;p'); kept as is
+Web (own HTML work),HTML  CSS/style.css,git history only (deleted/renamed earlier),Web_HTML_CSS_JS/05_css_link_demo/style.css,CSS for index.html (h1 colour and size),File name must stay style.css because index.html links to it
+Web (own HTML work),qustion_practise/calculator.html,git history only (deleted/renamed earlier),Web_HTML_CSS_JS/06_js_simple_calculator.html,"Calculator in HTML + JavaScript (add, sub, mul, remainder, divide)",
+-,qustion_practise/sum.c,-,SKIPPED,empty file (0 bytes),
+-,qustion_practise/pater_demo.c,-,SKIPPED,empty file (0 bytes),
+-,qustion_practise/patern_print.c,-,SKIPPED,empty file (0 bytes),
+-,pw skill/patern,-,SKIPPED,empty file (0 bytes),
+-,"a.out, zero.out, output, a.exe, zero.exe, inver_loop ... (compiled programs)",-,SKIPPED,not source code - recreate by compiling the .c files,
+-,.git folder,-,SKIPPED,"history only - the lost files were recovered from it, folder not copied",

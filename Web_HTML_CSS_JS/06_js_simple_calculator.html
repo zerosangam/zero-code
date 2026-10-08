@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+
+    <h2>Simple Calculator</h2>
+
+    <label>Enter your first number:</label>
+    <input type="number" id="n">
+
+    <br><br>
+
+    <label>Enter your second number:</label>
+    <input type="number" id="n1">
+
+    <br><br>
+
+    <label>Select Operator:</label>
+
+    <select id="operator">
+        <option value="1">1. Addition</option>
+        <option value="2">2. Subtraction</option>
+        <option value="3">3. Multiplication</option>
+        <option value="4">4. Remainder</option>
+        <option value="5">5. Division</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <h3 id="result"></h3>
+
+
+    <script>
+
+        function calculate()
+        {
+            let n = Number(document.getElementById("n").value);
+            let n1 = Number(document.getElementById("n1").value);
+            let operator = Number(document.getElementById("operator").value);
+
+            let result;
+
+            switch (operator)
+            {
+                case 1:
+                    result = n + n1;
+                    break;
+
+                case 2:
+                    result = n - n1;
+                    break;
+
+                case 3:
+                    result = n * n1;
+                    break;
+
+                case 4:
+                    result = n % n1;
+                    break;
+
+                case 5:
+                    result = n / n1;
+                    break;
+
+                default:
+                    result = "Invalid operator";
+            }
+
+            document.getElementById("result").innerHTML =
+                "Answer = " + result;
+        }
+
+    </script>
+
+</body>
+
+</html>
